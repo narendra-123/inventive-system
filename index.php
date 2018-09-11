@@ -255,9 +255,9 @@
             </ul>
         </div>
     </section>
-   
+
     <?php include './includes/testimonial.php'; ?>
-    
+
     <section class="fp-partner">
         <div class="container">
             <ul class="list-inline slick-partner">
@@ -424,9 +424,9 @@
             </div>
         </div>
     </section>
-    
-<?php include './includes/find.php'; ?>
-    
+
+    <?php include './includes/find.php'; ?>
+
 </main>
 
 <?php include './includes/footer.php'; ?>

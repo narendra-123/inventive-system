@@ -7,7 +7,6 @@
             <div class="fpc-list">
                 <figure>
                     <img src="assets/images/contact.png" alt="Inventive">
-                </figure>
                 <div class="fpc-list-contact">
                     <h3>Find Us</h3>
                     <ul class="list-group fa-ul">
@@ -28,6 +27,7 @@
                         </li>
                     </ul>
                 </div>
+                </figure>
             </div>
         </div>
     </section>

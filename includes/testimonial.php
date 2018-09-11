@@ -13,7 +13,7 @@
                                 </article>
                             </div>
                         </div>
-                        <div class="offset-3 col-4">
+                        <div class="offset-2 col-5">
                             <figure>
                                 <img src="assets/images/testimonial-client.png" alt="Inventive Testimonial">
                             </figure>
@@ -32,7 +32,7 @@
                                 </article>
                             </div>
                         </div>
-                        <div class="offset-3 col-4">
+                        <div class="offset-2 col-5">
                             <figure>
                                 <img src="assets/images/testimonial-client.png" alt="Inventive Testimonial">
                             </figure>
@@ -51,7 +51,7 @@
                                 </article>
                             </div>
                         </div>
-                        <div class="offset-3 col-4">
+                        <div class="offset-2 col-5">
                             <figure>
                                 <img src="assets/images/testimonial-client.png" alt="Inventive Testimonial">
                             </figure>
