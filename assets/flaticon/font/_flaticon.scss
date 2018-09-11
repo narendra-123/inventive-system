@@ -1,0 +1,91 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 05/06/2017 07:47
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-right-quotes-symbol:before { content: "\f100"; }
+.flaticon-left-quotes-sign:before { content: "\f101"; }
+.flaticon-phone-call-1:before { content: "\f102"; }
+.flaticon-delivery-man:before { content: "\f103"; }
+.flaticon-quality:before { content: "\f104"; }
+.flaticon-seatbelt:before { content: "\f105"; }
+.flaticon-handshake:before { content: "\f106"; }
+.flaticon-taxi:before { content: "\f107"; }
+.flaticon-car:before { content: "\f108"; }
+.flaticon-phone-call:before { content: "\f109"; }
+.flaticon-mail:before { content: "\f10a"; }
+.flaticon-telemarketer:before { content: "\f10b"; }
+.flaticon-suitcase-with-white-details:before { content: "\f10c"; }
+.flaticon-group:before { content: "\f10d"; }
+.flaticon-clock:before { content: "\f10e"; }
+.flaticon-calendar:before { content: "\f10f"; }
+.flaticon-map-marker-1:before { content: "\f110"; }
+.flaticon-map-marker:before { content: "\f111"; }
+.flaticon-checked-car:before { content: "\f112"; }
+.flaticon-stop-car:before { content: "\f113"; }
+.flaticon-agreement:before { content: "\f114"; }
+.flaticon-man-with-car:before { content: "\f115"; }
+.flaticon-pound-symbol-variant:before { content: "\f116"; }
+.flaticon-transport:before { content: "\f117"; }
+.flaticon-thumb-up:before { content: "\f118"; }
+.flaticon-car-placeholder:before { content: "\f119"; }
+    
+    $font-Flaticon-right-quotes-symbol: "\f100";
+    $font-Flaticon-left-quotes-sign: "\f101";
+    $font-Flaticon-phone-call-1: "\f102";
+    $font-Flaticon-delivery-man: "\f103";
+    $font-Flaticon-quality: "\f104";
+    $font-Flaticon-seatbelt: "\f105";
+    $font-Flaticon-handshake: "\f106";
+    $font-Flaticon-taxi: "\f107";
+    $font-Flaticon-car: "\f108";
+    $font-Flaticon-phone-call: "\f109";
+    $font-Flaticon-mail: "\f10a";
+    $font-Flaticon-telemarketer: "\f10b";
+    $font-Flaticon-suitcase-with-white-details: "\f10c";
+    $font-Flaticon-group: "\f10d";
+    $font-Flaticon-clock: "\f10e";
+    $font-Flaticon-calendar: "\f10f";
+    $font-Flaticon-map-marker-1: "\f110";
+    $font-Flaticon-map-marker: "\f111";
+    $font-Flaticon-checked-car: "\f112";
+    $font-Flaticon-stop-car: "\f113";
+    $font-Flaticon-agreement: "\f114";
+    $font-Flaticon-man-with-car: "\f115";
+    $font-Flaticon-pound-symbol-variant: "\f116";
+    $font-Flaticon-transport: "\f117";
+    $font-Flaticon-thumb-up: "\f118";
+    $font-Flaticon-car-placeholder: "\f119";
