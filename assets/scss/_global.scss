@@ -129,7 +129,7 @@ a{
         @include transition(linear 0.3s);
     }
     &.btn-sm{
-         background: #0D4388;
+        background: #0D4388;
         color: $white;
         &:hover, &:focus{
             background:darken(#0D4388, 5%);
@@ -356,12 +356,17 @@ h3.fp-title{
 .inr-form{
     width: 100%;
     min-height: 50px;
-    padding: $sm-space;
-    color: lighten($black, 60%);
-    background: lighten($black, 94%);
+    /*    padding: $sm-space;
+        color: lighten($black, 60%);
+        background: lighten($black, 94%);*/
     h3{
         margin-bottom: $sm-space;
         color: lighten($black, 20%);
+    }
+    > form{
+        border: 1px solid #ddd;
+        padding: 50px;
+        text-align: center;
     }
     form{
         margin-bottom: 0;
@@ -392,15 +397,15 @@ h3.fp-title{
         border: none;
         color:  lighten($black, 20%);
         border-radius: 0;
-        font-size: 13px;
+        font-size: 14px;
         letter-spacing: 0.5px;
-        font-weight: $light;
-        border-bottom: 1px solid transparent;
+        font-weight: $semi-bold;
+        border: 1px solid #ddd;
         box-shadow: none;
         @include transition(linear 0.3s);
         &:focus{
             box-shadow: none;
-            border-bottom: 1px solid $blue;
+            border: 1px solid $blue;
             outline: none;
             @include transition(linear 0.3s);
         }
@@ -409,8 +414,8 @@ h3.fp-title{
     textarea.form-control{
         height: auto;
     }
-    input{
-        font-weight: $light;
+    .form-group{
+        margin-bottom: 15px !important;
     }
     .input-group{
         width:100%;
@@ -513,4 +518,35 @@ a.read-more{
         @include transition(linear 0.3s);
     }
 
+}
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+.modal.left .modal-content,
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+.modal.left .modal-body,
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: 0;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+.modal.right.fade.in .modal-dialog {
+    right: 0;
 }
